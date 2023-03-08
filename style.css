@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-image: url(red.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    background-color: snow;
+}
+.img {
+    width: 40px;
+}
+.container {
+    padding: 0 150px;
+}
+a:hover{
+    border-bottom: 3px solid dodgerblue;
+}
+.icon {
+    background-color: #FF6900;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+.link {
+    padding-right: 85px;
+}
+h1 {
+   color: red;
+} 
+.blue {
+    color: dodgerblue;
+}
+.btn {
+    font-weight: bold;
+    display: inline-block;
+    color: snow;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+.btn:hover {
+    border: none;
+    text-decoration: underline solid dodgerblue;
+    text-transform: uppercase;
+}
+.rasm {
+    display: none;
+}
+.linking {
+    font-weight: 400;
+    line-height: 1.7;
+    display: flex;
+    color: snow;
+    position: relative;
+    top: 400px;
+}
+.linking:hover {
+    border-bottom: 2px solid snow;
+}
+.again {
+    display: block;
+}
+.big {
+    position: absolute;
+    background-color: steelblue;
+    display: inline-block;
+    width: 90px;
+    height: 900px;
+    bottom: 100px;
+    padding: 20px;
+    display: none;
+}   
+.again {
+    display: block;
+}
+.fa-times {
+    background-color: red;
+    padding: 8px 10px;
+    width: 15px;
+    text-align: center;
+}
+   
+
+
+@media(max-width:800px){
+    .container {
+        padding: 0;
+    }
+  .header{
+      padding: 6px;
+  }
+  .icon {
+      opacity: 19;
+  }
+  li {
+   display: none;
+  }
+  body {
+     background-color: black;
+     background-image: none;
+     margin: 0;
+  }
+  .wrap {
+      gap: 390px;
+  }
+  .gaps {
+      padding: 0;
+      font-size: normal;
+  }
+  h1 {
+      color: dodgerblue;
+      text-decoration: none;
+      text-shadow: none;
+  }
+  .rasm {
+    
+      display: block;
+      width: 599px;
+     margin-top: 90px;
+  }
+  .btn {
+      border-left: 2px solid dodgerblue;
+      border-right: 2px solid dodgerblue;
+      padding: 10px;
+  }
+
+
+  
+}
+@media(max-width:500px){
+    .rasm {
+        width: 350px;
+    }
+    .logo {
+
+        background-color: red;
+    }
+}
